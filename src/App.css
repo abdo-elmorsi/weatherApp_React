@@ -1,0 +1,67 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#root {
+  background: linear-gradient(to right, #62edff, #03a9f4);
+  color: white;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.App {
+  color: #282c34;
+  padding: 20px;
+  border-radius: 7px;
+  width: 500px;
+  margin: 10% auto;
+}
+
+.App form {
+  display: flex;
+  flex-direction: column;
+}
+
+.App form input {
+  padding: 12px 8px;
+  border: 0;
+  outline: none;
+  border-radius: 3px;
+  background-color: #2196f375;
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.App form input::placeholder {
+  color: #fff;
+}
+
+.App .info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.App .info p {
+  flex-basis: 48%;
+  background-color: #2196f375;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 12px 8px;
+  box-shadow: 0 0 5px #ffffff6b;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.App .info p span {
+  color: #ccc;
+  font-size: 1rem;
+}
